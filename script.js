@@ -129,8 +129,8 @@ $(document).ready(function(){
                 }
                 
             }
-            $("#maze1").append('<a-box src="#marble" static-body color="white" width="'+ 3 + '" height="'+ 2  + '" depth="'+ .2  + '" position="'+ (multiplier - 1.5) +' '+ 1 +' '+ 0.01  +'" ></a-box>');
-            $("#maze1").append('<a-box src="#marble" static-body color="white" width="'+ 3 + '" height="'+ 2  + '" depth="'+ .2  + '" position="'+ (multiplier - 1.5) +' '+ 1 +' '+ (size * multiplier)  +'" ></a-box>');
+            $("#maze1").append('<a-box src="#marble5" static-body color="white" width="'+ 3 + '" height="'+ 2  + '" depth="'+ .2  + '" position="'+ (multiplier - 1.5) +' '+ 1 +' '+ 0.01  +'" ></a-box>');
+            $("#maze1").append('<a-box src="#marble6" static-body color="white" width="'+ 3 + '" height="'+ 2  + '" depth="'+ .2  + '" position="'+ (multiplier - 1.5) +' '+ 1 +' '+ (size * multiplier)  +'" ></a-box>');
             
         }    
     
