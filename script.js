@@ -13,7 +13,7 @@ $(document).ready(function(){
       e.detail.contact;    // Stats about the collision (CANNON.ContactEquation).
       e.detail.contact.ni; // Normal (direction) of the collision (CANNON.Vec3).
     });
-    var size = 25;
+    var size = 20;
     var cells = [];
     var newCells = [];
     var wasHere = [];
