@@ -109,8 +109,6 @@ $(document).ready(function(){
                   if(m == startY1){
                     width = .2;
                     src = "#marble3"
-                  }else if(m == size - 1){
-                    src = "#marble4"
                   }else if(n == 0){
                     src = "#marble5"
                   }else if(n == size - 1){
