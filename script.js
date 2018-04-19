@@ -58,7 +58,7 @@ $(document).ready(function(){
         cells[endY1][endX1] = true;
       }
       
-      while(solutionExists(startY1, startX1) === false){
+      while(solutionExists(startX1, startY1) === false){
       
         for(var i = 0; i < runs; i++){
           makeMaze();
